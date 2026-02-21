@@ -65,7 +65,7 @@
 	)
 	(fp_line
 		(start -3.302 50.5)
-		(end -3.302 -6.65)
+		(end -3.302 -8.255)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -294,24 +294,24 @@
 		(uuid "bb7eac8d-8a21-4fa7-8df6-0086884036e7")
 	)
 	(fp_line
-		(start -3.46 -8.43)
-		(end 21.24 -8.43)
+		(start -4 -9)
+		(end 21.5 -9)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "e622bcd6-32a8-4ffb-aae6-c642ee367815")
+		(uuid "13b678ac-5c9b-44de-977e-6467d9b08764")
 	)
 	(fp_line
-		(start -3.46 51)
-		(end -3.46 -8.382)
+		(start -4 53.5)
+		(end -4 -9)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "62de305e-c831-4b19-91e8-6e5f5599fd3b")
+		(uuid "5f5b263e-9eea-4244-9572-162dc9786e34")
 	)
 	(fp_line
 		(start -1.8 -1.8)
@@ -374,46 +374,6 @@
 		(uuid "42f52b2f-d0fb-4094-91a5-070b62fd52ae")
 	)
 	(fp_line
-		(start 4.74 51)
-		(end -3.46 51)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "b98f6195-40b8-4e21-82ae-29ba11920e21")
-	)
-	(fp_line
-		(start 4.74 53)
-		(end 4.74 51)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "91b7b064-a312-473e-afaa-0c77325a5500")
-	)
-	(fp_line
-		(start 13.04 51)
-		(end 13.04 53)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "ba9ee4b4-512a-401a-83a6-db40dac9090b")
-	)
-	(fp_line
-		(start 13.04 53)
-		(end 4.74 53)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "a8109ab4-9a2c-4e97-a443-2c4de595239f")
-	)
-	(fp_line
 		(start 14.5 -8.15)
 		(end 14.5 -4.55)
 		(stroke
@@ -474,24 +434,24 @@
 		(uuid "730cc30c-6f81-42d8-886d-a4cabbe6b396")
 	)
 	(fp_line
-		(start 21.2 51)
-		(end 13.04 51)
+		(start 21.5 -9)
+		(end 21.5 53.5)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "16270023-5962-438b-8004-56ba747eac9a")
+		(uuid "208c9853-466e-4cfd-a62e-1bcae6eec1c1")
 	)
 	(fp_line
-		(start 21.24 -8.43)
-		(end 21.24 51)
+		(start 21.5 53.5)
+		(end -4 53.5)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "6d12a082-89f6-40c1-889b-54312ba633af")
+		(uuid "ee4bbbf4-993d-4237-899e-8aa73c9d73c8")
 	)
 	(fp_line
 		(start -3.21 -8.18)
@@ -1110,6 +1070,17 @@
 		)
 	)
 	(model "D:/Users/admin/Documents/KiCad/Libraries/packages3d/Modules/STM32_Black_Pill/YAAJ_BlackPill_PinSockets_B_SWD_cp.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/home/mihai/Projects/OpenDGT/hw/packages/blackpill.step"
 		(offset
 			(xyz 0 0 0)
 		)

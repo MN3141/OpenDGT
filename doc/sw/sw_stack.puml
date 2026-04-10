@@ -1,0 +1,20 @@
+@startuml
+title Software stack
+
+<style>
+    element{
+        HorizontalAlignment: center
+    }
+</style>
+
+rectangle sw_stack [
+    User Application
+    ---
+    OpenDGTLib
+    ---
+    Hardware Abstraction Layer
+    ---
+    Hardware
+]
+
+@enduml

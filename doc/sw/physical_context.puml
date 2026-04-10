@@ -1,0 +1,10 @@
+@startuml
+title Physical context
+
+[User's computer] as pc
+[DGT 3000] as clock
+[Adapter Board] as board
+
+clock <-> board: I2C*
+board <-> pc: USB port
+@enduml

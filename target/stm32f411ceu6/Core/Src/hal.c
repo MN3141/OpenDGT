@@ -1,8 +1,7 @@
-#include "stm32f4xx_hal.h"
+#include "main.h"
 #include "usb_device.h"
 #include "hal.h"
 
-void Error_Handler(void);
 void SystemClock_Config(void);
 void MX_GPIO_Init(void);
 

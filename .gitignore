@@ -1,0 +1,6 @@
+# LaTeX generated files
+doc/thesis/*.aux
+doc/thesis/*.toc
+doc/thesis/*.gz
+doc/thesis/*.pdf
+doc/thesis/*.log

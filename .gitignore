@@ -8,3 +8,9 @@ doc/thesis/*.log
 # PlantUML generated files
 doc/sw/*.png
 doc/sw/*.svg
+
+# STM32 CubeMX generated file
+target/*/.mxproject
+
+# C generated files
+build/*

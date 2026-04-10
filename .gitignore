@@ -4,3 +4,7 @@ doc/thesis/*.toc
 doc/thesis/*.gz
 doc/thesis/*.pdf
 doc/thesis/*.log
+
+# PlantUML generated files
+doc/sw/*.png
+doc/sw/*.svg

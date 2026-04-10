@@ -1,0 +1,13 @@
+@startuml
+title User context
+
+skinparam actorStyle awesome
+
+actor :User: as user
+[OpenDGTCom] as com
+[DGT 3000] as clock
+
+user <-> com
+com <-> clock
+
+@enduml

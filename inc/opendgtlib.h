@@ -1,6 +1,5 @@
 #ifndef OPENDGTLIB
 #define OPENDGTLIB
 
-int Init_MCU();
-
+int Board_Init();
 #endif

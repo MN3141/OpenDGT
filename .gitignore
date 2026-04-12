@@ -1,3 +1,6 @@
+# VS Code specific files
+.vscode/*
+
 # LaTeX generated files
 doc/thesis/*.aux
 doc/thesis/*.toc
@@ -11,6 +14,8 @@ doc/sw/*.svg
 
 # STM32 CubeMX generated file
 target/*/.mxproject
+target/*/.project
 
 # C generated files
 build/*
+target/*/build/*

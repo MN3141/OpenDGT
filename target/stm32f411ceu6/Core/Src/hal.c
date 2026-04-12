@@ -25,19 +25,23 @@ int MCU_Init()
 
 int GPIO_Init(int gpioPort, int gpioPin)
 {
-    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    if (gpioPort < PORTS_NUM)
+    {
+        GPIO_InitTypeDef GPIO_InitStruct = {0};
 
-    /* Enable clock for the given pin*/
-    RCC->AHB1ENR |= (1 << gpioPort);
+        /* Enable clock for the given pin*/
+        RCC->AHB1ENR |= (1 << gpioPort);
 
-    /*Configure GPIO pin */
-    GPIO_InitStruct.Pin = (1 << gpioPin);
-    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-    GPIO_InitStruct.Pull = GPIO_NOPULL;
-    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-    HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+        /*Configure GPIO pin */
+        GPIO_InitStruct.Pin = (1 << gpioPin);
+        GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+        GPIO_InitStruct.Pull = GPIO_NOPULL;
+        GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+        HAL_GPIO_Init(STM32F4_Registers[gpioPort], &GPIO_InitStruct);
 
-    return 0;
+        return 0;
+    }
+    return 1;
 }
 
 int GPIO_Set(int gpioPort, int gpioPin, int value)

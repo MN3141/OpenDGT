@@ -1,5 +1,6 @@
 #include "main.h"
 #include "usb_device.h"
+#include "usbd_cdc_if.h"
 #include "hal.h"
 
 GPIO_TypeDef *STM32F4_Registers[] = {
@@ -60,6 +61,12 @@ int USB_Init()
     return 0;
 }
 
+int USB_TX(char *buffer, int bufferSize)
+{
+    CDC_Transmit_FS(buffer, bufferSize);
+
+    return 0;
+}
 /**
  * @brief  This function is executed in case of error occurrence.
  * @retval None

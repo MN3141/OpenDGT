@@ -23,5 +23,6 @@ int GPIO_Init(int gpioPort, int gpioPin);
 int GPIO_Set(int gpioPort, int gpioPin, int value);
 void MCU_Delay(int miliseconds);
 int USB_Init();
+int USB_TX(char *buffer, int bufferSize);
 
 #endif

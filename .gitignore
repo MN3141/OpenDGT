@@ -7,6 +7,8 @@ doc/thesis/*.toc
 doc/thesis/*.gz
 doc/thesis/*.pdf
 doc/thesis/*.log
+doc/thesis/*.bbl
+doc/thesis/*.blg
 
 # PlantUML generated files
 doc/sw/*.png

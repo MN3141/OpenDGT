@@ -11,11 +11,19 @@ Ca parte a efortului derulat de cercetare și dezvoltare a acestui proiect au fo
 \end{enumerate}
 
 Acestea fiind enunțate este momentul să discutăm despre cele mai populare opțiuni disponibile pe piață.
-\subsubsection{ATMega328p}
-\subsubsection{ESP8266}
-\subsubsection{S32K144}
-\subsubsection{STM32F411}
+\begin{enumerate}
+	\item ATmega328p
+	\item ESP8266
+	\item STM32F411
+\end{enumerate}
 
+\paragraph{ATmega328p} oferit de către Atmel (Microchip acum) este un microcontroller pe 8 biți bazat pe arhitectura AVR, fiind foarte popular printre amatori datorită includerii sale in familia de plăci Arduino. Popularitatea este justificată prin complexitatea redusă a acestuia și a resurselor online disponibile (fie că discutăm de programarea bare-metal sau folosind framework-ul Arduino) iar toolchain-ul format din avr-libc (implementarea AVR a standardului C), avr-gcc (driver-ul folosit pentru compilare) și avr-dude (utilitar folosit pentru încărcarea fișierelor binare) este ușor de procurat și integrat în cadrul proiectelor. Așadar putem considera din start cel de al treilea criteriu drept satisfăcut. Referitor la primele două, acestea sunt problematice.
+Dacă ar fi să privim fișa de catalog a acestui microcontroller se va putea observa că acesta nu oferă facilitatea de a comunica folosind protocolul USB \cite{atmega_datasheet}, așa că cei de la Arduino au inclus în plăcilor lor un cip cu rolul de a converti datele transmise prin UART (Universal Asynchronous Receiver Transmitter; protocol disponibil pe Atmega328p) în USB. Intr-adevăr, dacă privim schema electrică unde datele din conectorul USB sunt transmise către acest cip, iar dacă căutam pe pagina oficială a acestora regăsim următoarea informație: The ATmega328 provides UART TTL (5V) serial communication, which is available on digital pins 0 (RX) and 1 (TX). An ATmega16U2 on the board channels this serial communication over USB and appears as a virtual com port to software on the computer. (NOTĂ: multe plăci fiind clone ale originalului folosesc în loc de ATmega16U2 un alt convertor, și anume CH340).
+Trecând la următorul criteriu (facilitatea de depanare a programlor), aceste este încălcat și ne obligă să considerăm alte opțiuni. În ciuda faptului că documentația oficială \cite{atmega_datasheet} specifică un un sistem de depanare pe cip (debugWIRE), problema rămâne de interfațarea cu acesta. Plaăcile Arduino nu oferă o soluție iar procurarea unor programatoare pentru acest protocol este dificilă din cauza indisponibilității sau a prețului acestora.
+\paragraph{ESP8266} de la Espressif reprezintă un System on a Chip (SoC) popular de asemenea printre amatori datorită costului său redus, integrării cu tehnologie Wi-Fi (utilă pentru implementarea soluțiilor ce țin de Internet of Things) și a tool-urilor existente. De cele mai multe ori se poate opta pentru a programa cipul în limbajul LUA (abstractizând și mai mult interacțiunea hardware) iar proiectele sunt ușor de integrat în Arduino IDE sau PlatformIO. Din nou, cel de al treilea criteriu este satisfăcut. Similar cu cu ATmega328p, acest SoC nu prezintă o interfață USB\cite{esp_tech}, fiind din nou nevoie de a se folosi un convertor (a se vedea de exemplu NodeMCU). Trecând la ultimul criteriu, ESP8266 nu prezintă de nici un fel un protocol de depanare, singura soluție practică fiind a ocupa portul serial cu scrierea pe ecran, ceea ce nu ne convine.
+
+\paragraph{STM32F411} oferit de compania ST Electronics este un microcontroller pe 32 de biți care satisface toate cele trei criterii. Acesta se bucură de documentație excelentă de către furnizor și comunitate, este însoțiti de un toolchain flexibil (care va fi prezentat în cele ce urmează), are modul de USB deja integrat și, cel mai important, oferă programatorului facilitatea de depanare pe cip prin uzul protocoalelor Serial Wire Debug și JTAG. Așadar, considerăm acest microcontroller alegerea cea mai bună pentru scopul propus, iar drept placă s-a optat pentru folosirea WeAct BlackPill v2.0.
 \subsection{Ecosistemul STM32}
+Unul dintre motivele pentru care cipurile din familia STM32 sunt atît de răspîndite îl constituie ecosistemul bogat de tool-uri pe care ST le-a pus la dispoziția utilizatorilor. Succint le vom prezenta și menționa care au fost folosite în p
 \subsection{O privire de ansamblu asupra microcontroller-ului}
 \subsection{Placa de dezvoltare folosită}

@@ -9,6 +9,10 @@ doc/thesis/*.pdf
 doc/thesis/*.log
 doc/thesis/*.bbl
 doc/thesis/*.blg
+doc/thesis/*.bcf
+doc/thesis/*.xml
+doc/thesis/*.fls
+doc/thesis/*.fdb_latexmk
 
 # PlantUML generated files
 doc/sw/*.png

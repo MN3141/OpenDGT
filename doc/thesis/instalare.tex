@@ -1,0 +1,28 @@
+\section{Instalarea și configurarea proiectului}
+
+\subsection{Instalare}
+Pentru cei interesați de acest proiect vor avea posibilitatea de a-l prelua lesne de pe următorul repository de Github: \url{https://github.com/MN3141/OpenDGT}. Depinzând de nevoie, persoana interesată fie va putea codul sursă pentru compilare aplicației sau a documentației, fie va putea descărca o arhivă care va conține fișierele deja compilate din secțiunea \textit{Releases} a repository-ului.
+
+\subsection{Structura aplicației}
+
+Uitându-ne per ansamplu aplicația este formată din fișiere ce descriu documentația (LaTeX și imagini), proiectarea hardware elaborată în KiCAD ce redă sistemul la nivel de schemă electrică și circuit imprimat, aplicația pentru vizualizarea comunicației cu ceasul și codul sursă in sine a bibliotecii.
+
+\begin{figure}[H]
+	\centering
+\begin{verbatim}
+	.
+	|-- doc # documentația proiectului
+	|-- hw # schemele și modelele 3D ale componentei HW a proiectului
+	|-- inc # fișiere header ale codului sursă
+	|-- LICENSE # declarația licenței folosite a proiectului
+	|-- Makefile # fișierul folosit pentru compilarea aplicației
+	|-- README.md # fișier Markdown introductiv
+	|-- src # fișiere C ale codului sursă
+	`-- target # fișiere de configurare a plăcii țintă (ex: STM32F411)
+\end{verbatim}
+\caption{Structura ierarhică a datelor}
+\end{figure}
+
+\subsection{Compilarea fișierelor}
+
+\subsection{Rularea aplicației}

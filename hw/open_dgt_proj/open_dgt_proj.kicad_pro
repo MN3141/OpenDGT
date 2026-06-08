@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -645,7 +661,7 @@
         "uuid": "c09d2dd6-9539-48f7-8c2c-4fe0c54a0ff8"
       }
     ],
-    "used_designators": "R1,R4,R9,J1-3,U2-3,#PWR1",
+    "used_designators": "M1-4,H1",
     "variants": []
   },
   "sheets": [
@@ -656,6 +672,10 @@
     [
       "e4ff42d6-bf32-4d63-b41d-428dd83d646b",
       "DGT3000 jack connection"
+    ],
+    [
+      "44a15bf9-41d1-4968-b19b-eba25c26c407",
+      "Chess System"
     ]
   ],
   "text_variables": {},

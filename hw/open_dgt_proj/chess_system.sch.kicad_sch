@@ -1,0 +1,1213 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "101412eb-6886-4f1e-8cdf-0014de5f91e9")
+	(paper "A4")
+	(title_block
+		(title "Chess System Block Components")
+		(date "2026-06-09")
+	)
+	(lib_symbols
+		(symbol "Motor:Motor_Servo"
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at -5.08 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_Servo"
+				(at -5.08 -4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+				(at 0 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Servo Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Motor_Servo_0_1"
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 1.905 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 1.778) (xy 2.286 1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.032 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.413 -1.778) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.413 -1.778)
+					(mid 1.2406 0)
+					(end 2.413 1.778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 0)
+					(radius 1.4224)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.556) (xy -5.08 3.556) (xy -5.08 -3.556) (xy 6.35 -3.556) (xy 6.35 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.969 2.794)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.477 3.302)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 6.35 4.445)
+					(mid 7.4487 4.2737)
+					(end 7.62 3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.985 3.81)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.175) (xy 4.191 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_Servo_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 58.674 91.44)
+		(end 85.09 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "01a4657e-c831-468e-af66-b7b72ae1f50d")
+	)
+	(rectangle
+		(start 208.28 74.676)
+		(end 242.57 89.662)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0725783a-0d14-4cf0-948b-5a75f7f0857f")
+	)
+	(rectangle
+		(start 170.688 67.818)
+		(end 191.008 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "13af3104-ebcd-4188-bdb2-367986a7c255")
+	)
+	(rectangle
+		(start 208.534 96.266)
+		(end 242.57 111.252)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "27807ca9-476f-424a-b34b-a7a390e9b426")
+	)
+	(rectangle
+		(start 207.01 54.356)
+		(end 241.3 69.342)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3649ee5f-8a9a-4684-9a5b-46fd9e070a3a")
+	)
+	(rectangle
+		(start 158.75 95.25)
+		(end 199.39 111.252)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "43cefc20-9659-46bb-971b-9538c4115bda")
+	)
+	(rectangle
+		(start 104.14 93.726)
+		(end 144.78 113.538)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "586bae22-2a2b-4f79-93eb-a4218280ccd1")
+	)
+	(rectangle
+		(start 54.864 63.627)
+		(end 90.17 78.613)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5c594229-b828-4f66-b304-ae8fa18b7811")
+	)
+	(rectangle
+		(start 60.198 132.08)
+		(end 87.376 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c38e7548-6cd2-4035-9402-f69af1ebb4cb")
+	)
+	(rectangle
+		(start 55.372 41.91)
+		(end 87.63 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d7f0dd0a-0bcb-441f-8538-c8eff4f96df8")
+	)
+	(text "STM32F411 MCU"
+		(exclude_from_sim no)
+		(at 72.39 71.12 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "081e3587-e75e-4814-9add-7d2834d11d94")
+	)
+	(text "RAMPS Shield 1.4"
+		(exclude_from_sim no)
+		(at 179.07 103.632 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "23856987-b896-448f-9c18-25d3b08c1008")
+	)
+	(text "PC"
+		(exclude_from_sim no)
+		(at 72.39 104.14 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "2b9d0c4c-71ae-4ad5-844f-4cdc0da88ca9")
+	)
+	(text "DGT e-Board"
+		(exclude_from_sim no)
+		(at 73.406 138.176 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "36e2babe-4aee-4174-8dd2-8b1213c063e9")
+	)
+	(text "PSU"
+		(exclude_from_sim no)
+		(at 180.34 77.47 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "44c90f4d-9f47-4c60-8daa-65e34ddd9ff1")
+	)
+	(text "DGT3000 Clock"
+		(exclude_from_sim no)
+		(at 71.628 48.768 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "660fb5fb-ebbb-4a7f-88aa-4a9369048875")
+	)
+	(text "TMC2209 Driver"
+		(exclude_from_sim no)
+		(at 226.06 104.14 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "69469409-5d20-4c43-b816-05a0d6c3924b")
+	)
+	(text "USB0"
+		(exclude_from_sim no)
+		(at 77.47 126.238 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6b42c0a6-c390-4d7a-9007-e69bcbaa015d")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 74.93 59.436 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "6f1e0bb5-a9bd-41b6-96af-918958adf30a")
+	)
+	(text "Arduino Mega 2560 MCU"
+		(exclude_from_sim no)
+		(at 124.46 104.14 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "8352905b-f582-462e-a2df-16f1cd15fdf7")
+	)
+	(text "USB1"
+		(exclude_from_sim no)
+		(at 76.454 86.614 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "8df9eabb-4b56-48d1-98a3-85c2be08dfae")
+	)
+	(text "USB2"
+		(exclude_from_sim no)
+		(at 94.234 101.346 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "d712d2de-8c70-41cd-8e8d-65551dbf3124")
+	)
+	(text "TMC2209 Driver"
+		(exclude_from_sim no)
+		(at 226.06 82.55 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "f87a0788-0bb6-40c4-adf5-c67ab5f6c048")
+	)
+	(text "TMC2209 Driver"
+		(exclude_from_sim no)
+		(at 224.79 62.23 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "faf6eeb4-c476-4b1f-bcbb-f5731c1fd28c")
+	)
+	(wire
+		(pts
+			(xy 71.12 78.74) (xy 71.12 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c335c4-2cb0-417a-9b9d-c9dcaf95ae3b")
+	)
+	(wire
+		(pts
+			(xy 217.17 127) (xy 187.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afcf450-97bd-47d3-ba6e-3c7eb3d99020")
+	)
+	(wire
+		(pts
+			(xy 199.39 97.79) (xy 201.93 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c16a8a8-9ffe-4c5f-ba89-c178f494fcd4")
+	)
+	(wire
+		(pts
+			(xy 204.47 82.55) (xy 208.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e09811b-dd75-47d2-a37a-d90bbf0c0b3f")
+	)
+	(wire
+		(pts
+			(xy 242.57 82.55) (xy 251.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13abc424-2ba6-483b-a753-73e15f7feb42")
+	)
+	(wire
+		(pts
+			(xy 241.3 60.96) (xy 251.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b8b2ef-42cd-4a90-aa92-a4f73293cca2")
+	)
+	(wire
+		(pts
+			(xy 242.57 80.01) (xy 251.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc84a91-bd32-4930-aab9-4e2c3b34731f")
+	)
+	(wire
+		(pts
+			(xy 199.39 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34a3171b-d528-44e3-8e20-4b555c7591ef")
+	)
+	(wire
+		(pts
+			(xy 72.39 118.11) (xy 72.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fa3d71-cdde-4675-a9be-d291c0529add")
+	)
+	(wire
+		(pts
+			(xy 85.09 104.14) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d110f2-ef77-46db-abff-aad138c64273")
+	)
+	(wire
+		(pts
+			(xy 204.47 101.6) (xy 204.47 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ff5b2f-03cb-4203-b806-ba0bf9afb44d")
+	)
+	(wire
+		(pts
+			(xy 217.17 124.46) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a77887-2b4b-460e-89aa-bc6203922620")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.36) (xy 181.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62469339-698e-4f37-90a3-7c476490fd72")
+	)
+	(wire
+		(pts
+			(xy 242.57 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1006e8-46ff-4d79-baf5-7482d8bfa219")
+	)
+	(wire
+		(pts
+			(xy 185.42 111.76) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735f2cf2-72ac-4d83-9d36-7e40c683e199")
+	)
+	(wire
+		(pts
+			(xy 201.93 97.79) (xy 201.93 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77801f11-c502-4d7c-94b2-ced531603325")
+	)
+	(wire
+		(pts
+			(xy 242.57 85.09) (xy 251.46 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "791ff581-e023-4899-bb63-388715d2fe37")
+	)
+	(wire
+		(pts
+			(xy 199.39 101.6) (xy 204.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8882d6-66c8-42ff-9a6e-e442153057b5")
+	)
+	(wire
+		(pts
+			(xy 144.78 102.87) (xy 158.75 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d484833-a340-4e3e-b497-1c4cb3a240a3")
+	)
+	(wire
+		(pts
+			(xy 242.57 106.68) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0cff1a5-71c6-4896-a032-b3fda1cd1eac")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 179.07 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a69246df-a146-49f4-bb68-69afcd7992cb")
+	)
+	(wire
+		(pts
+			(xy 201.93 62.23) (xy 207.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abcb3d1f-6419-4695-9d77-d69f8bd3f0ee")
+	)
+	(wire
+		(pts
+			(xy 242.57 104.14) (xy 251.46 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42e2a60-d20c-4d13-a10d-d3d32162e99e")
+	)
+	(wire
+		(pts
+			(xy 187.96 111.76) (xy 187.96 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e1f2b6-84bc-46ab-b748-66b2043ff0d8")
+	)
+	(wire
+		(pts
+			(xy 241.3 58.42) (xy 251.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c701fd17-663b-4bcf-bded-610b86908a9b")
+	)
+	(wire
+		(pts
+			(xy 241.3 63.5) (xy 251.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d409ad32-f335-4707-a46c-085e1ad9ae76")
+	)
+	(wire
+		(pts
+			(xy 217.17 129.54) (xy 185.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d674ed54-49c1-4310-8d39-f87a5dfcee13")
+	)
+	(wire
+		(pts
+			(xy 71.12 54.61) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df22f57b-b5eb-41f9-92e5-530e3ab9bd6d")
+	)
+	(wire
+		(pts
+			(xy 190.5 111.76) (xy 190.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff23356-5056-4263-acf3-ada76a6cfbde")
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 259.08 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1eb81387-3cd8-4f72-b2be-c329964c3395")
+		(property "Reference" "Joint3"
+			(at 267.97 102.4368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 267.97 104.9768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 259.08 108.966 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 259.08 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "cad1bcbc-f02c-4cda-98f2-8ff6a085bb2d")
+		)
+		(pin "2"
+			(uuid "814095b4-801a-4ad2-8a74-bcdc8ab8886a")
+		)
+		(pin "1"
+			(uuid "5b4d0df1-0cef-44e7-a15c-f4ba87f94351")
+		)
+		(instances
+			(project "open_dgt_proj"
+				(path "/c09d2dd6-9539-48f7-8c2c-4fe0c54a0ff8/44a15bf9-41d1-4968-b19b-eba25c26c407"
+					(reference "Joint3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 259.08 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41a2b3c8-b56c-4113-9a63-4cdbdf395b47")
+		(property "Reference" "Joint2"
+			(at 267.97 80.8468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 267.97 83.3868 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 87.376 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 259.08 87.376 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 259.08 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c0ae695e-9e8e-41ac-a69c-80b219e6cce3")
+		)
+		(pin "2"
+			(uuid "ed48d3e0-d8bf-4b37-8276-f7976a988114")
+		)
+		(pin "1"
+			(uuid "53662a07-baed-4f13-900f-9bd399ca8683")
+		)
+		(instances
+			(project "open_dgt_proj"
+				(path "/c09d2dd6-9539-48f7-8c2c-4fe0c54a0ff8/44a15bf9-41d1-4968-b19b-eba25c26c407"
+					(reference "Joint2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 224.79 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c02ddf7-0645-4da1-8b90-6af133b813bc")
+		(property "Reference" "Gripper"
+			(at 233.68 125.2968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "STIX")
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 233.68 127.8368 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 131.826 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 224.79 131.826 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 224.79 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ee6d6945-a872-42da-ac93-a7857a7b1f70")
+		)
+		(pin "2"
+			(uuid "f2618649-122e-4829-81d8-64abdec94dbb")
+		)
+		(pin "1"
+			(uuid "c1db469a-1a4c-4d4d-9502-986f35030714")
+		)
+		(instances
+			(project "open_dgt_proj"
+				(path "/c09d2dd6-9539-48f7-8c2c-4fe0c54a0ff8/44a15bf9-41d1-4968-b19b-eba25c26c407"
+					(reference "Gripper")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Motor:Motor_Servo")
+		(at 259.08 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c8040f7d-a545-49dc-b83b-66881902f368")
+		(property "Reference" "Joint1"
+			(at 267.97 59.2568 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Motor_Servo"
+			(at 267.97 61.7968 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://forums.parallax.com/uploads/attachments/46831/74481.png"
+			(at 259.08 65.786 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Servo Motor (Futaba, HiTec, JR connector)"
+			(at 259.08 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "64030684-4589-4442-9669-eedae7e8053f")
+		)
+		(pin "2"
+			(uuid "3771764c-761e-4776-908c-9725aadf8d1d")
+		)
+		(pin "1"
+			(uuid "775c96ee-fddb-43f0-8346-8315d5f8b449")
+		)
+		(instances
+			(project "open_dgt_proj"
+				(path "/c09d2dd6-9539-48f7-8c2c-4fe0c54a0ff8/44a15bf9-41d1-4968-b19b-eba25c26c407"
+					(reference "Joint1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

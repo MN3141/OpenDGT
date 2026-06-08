@@ -21278,8 +21278,54 @@
 		)
 	)
 	(sheet
-		(at 187.96 57.15)
-		(size 57.15 68.58)
+		(at 207.01 67.31)
+		(size 31.75 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "44a15bf9-41d1-4968-b19b-eba25c26c407")
+		(property "Sheetname" "Chess System"
+			(at 207.01 66.5984 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "chess_system.sch.kicad_sch"
+			(at 207.01 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "open_dgt_proj"
+				(path "/c09d2dd6-9539-48f7-8c2c-4fe0c54a0ff8"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 67.31)
+		(size 34.29 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21294,7 +21340,7 @@
 		)
 		(uuid "e4ff42d6-bf32-4d63-b41d-428dd83d646b")
 		(property "Sheetname" "DGT3000 jack connection"
-			(at 187.96 56.4384 0)
+			(at 168.91 66.5984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21305,7 +21351,7 @@
 			)
 		)
 		(property "Sheetfile" "dgt_3000_jack_sch.kicad_sch"
-			(at 187.96 126.3146 0)
+			(at 168.91 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

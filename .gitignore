@@ -19,3 +19,5 @@ target/*/.project
 # C generated files
 build/*
 target/*/build/*
+target/*/Core/Src/main.c
+target/*/Makefile

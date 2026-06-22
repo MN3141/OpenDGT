@@ -18,11 +18,18 @@
 #define MCU_INIT_OK 0
 #define MCU_INI_ERR 1
 
+#define I2C_INTERFACES 3
+
 int MCU_Init();
+void MCU_Delay(int miliseconds);
+
 int GPIO_Init(int gpioPort, int gpioPin);
 int GPIO_Set(int gpioPort, int gpioPin, int value);
-void MCU_Delay(int miliseconds);
+
 int USB_Init();
 int USB_TX(char *buffer, int bufferSize);
+
+int I2C_Init(int i2c_interface);
+int I2C_TX(int i2c_interface, char *buffer, int bufferSize, int addr);
 
 #endif

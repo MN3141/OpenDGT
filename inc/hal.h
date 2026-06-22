@@ -19,6 +19,7 @@
 #define MCU_INI_ERR 1
 
 #define I2C_INTERFACES 3
+#define I2C_INTERFACE_0 0
 
 int MCU_Init();
 void MCU_Delay(int miliseconds);

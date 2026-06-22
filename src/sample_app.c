@@ -4,6 +4,7 @@
 #include "hal.h"
 
 int received = 0;
+
 void USB_RX_Callback()
 {
     received = 1;
@@ -20,6 +21,11 @@ int main()
 
     int i2cAddr = 40 << 1;
 
+    while (1)
+    {
+        Wake_DGT3000();
+    }
+    
     while (1)
     {
         if (received)
@@ -39,7 +45,8 @@ int main()
             MCU_Delay(1000);
         }
 
-        I2C_TX(0,buff,buffSize,i2cAddr);
+        Wake_DGT3000();
+        //I2C_TX(I2C_INTERFACE_0,buff,buffSize,i2cAddr);
     }
 
     return 0;

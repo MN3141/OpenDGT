@@ -66,7 +66,7 @@ Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c \
 Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c \
 Core/Src/sysmem.c \
 Core/Src/syscalls.c \
-Core/Src/hal.c
+Core/Src/main.c
 
 # ASM sources
 ASM_SOURCES =  \

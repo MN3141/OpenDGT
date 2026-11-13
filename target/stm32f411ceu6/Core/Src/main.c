@@ -47,7 +47,7 @@ I2C_HandleTypeDef hi2c1;
 I2C_HandleTypeDef hi2c2;
 
 /* USER CODE BEGIN PV */
-
+char usb_buffer[12];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -111,7 +111,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    HAL_Delay(1000);
+    DGT3000_Display(usb_buffer,0,0,0);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

@@ -37,7 +37,4 @@ int DGT3000_SetDisplay(const char *text, uint8_t beep, uint8_t left_dots, uint8_
 int DGT3000_SetMode25(void);
 int DGT3000_SetCCMode(void);
 
-/* Host link: called by the target when data arrives over USB. */
-void USB_RX_Callback(void);
-
 #endif /* OPENDGTLIB_H */

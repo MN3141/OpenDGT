@@ -12,7 +12,7 @@ rectangle sw_stack [
     ---
     OpenDGTLib
     ---
-    Hardware Abstraction Layer
+    Target Specific Driver
     ---
     Hardware
 ]

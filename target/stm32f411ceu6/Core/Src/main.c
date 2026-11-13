@@ -22,6 +22,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "opendgtlib.h"
+#include "dgt_port.h"
 
 /* USER CODE END Includes */
 
@@ -95,7 +97,13 @@ int main(void)
   MX_I2C2_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-
+  DGT_Port_Init();
+  DGT3000_WakeClock();
+  /* Like dgtpi, try the display even if configuring reported a failure */
+  volatile int configure_status = DGT3000_Configure();
+  volatile int display_status = DGT3000_Display("1999", 0, 0, 0);
+  (void)configure_status;
+  (void)display_status;
   /* USER CODE END 2 */
 
   /* Infinite loop */

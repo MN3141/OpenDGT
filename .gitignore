@@ -19,3 +19,4 @@ target/*/.project
 # C generated files
 build/*
 target/*/build/*
+target/*/Makefile

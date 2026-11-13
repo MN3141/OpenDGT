@@ -1,3 +1,4 @@
+PROJ_NAME = OpenDGT
 TARGET = stm32f411ceu6
 TARGET_DIR = target
 
@@ -14,6 +15,14 @@ export BUILD_DIR
 
 all:
 	$(MAKE) -C $(TARGET_DIR)/$(TARGET) -f $(TARGET).mk
+
+flash:
+	echo "Flashing..."
+	st-flash write $(BUILD_DIR)/$(PROJ_NAME).bin 0x8000000
+
+debug:
+	echo "Debugging..."
+	gdb-multiarch $(BUILD_DIR)/$(PROJ_NAME).elf -x launch.gdb
 
 clean:
 	$(MAKE) -C $(TARGET_DIR)/$(TARGET) -f $(TARGET).mk clean

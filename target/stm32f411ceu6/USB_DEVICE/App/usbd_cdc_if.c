@@ -22,7 +22,7 @@
 #include "usbd_cdc_if.h"
 
 /* USER CODE BEGIN INCLUDE */
-
+#include "opendgtlib.h"
 /* USER CODE END INCLUDE */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -242,7 +242,7 @@ static int8_t CDC_Control_FS(uint8_t cmd, uint8_t* pbuf, uint16_t length)
   return (USBD_OK);
   /* USER CODE END 5 */
 }
-extern void USB_RX_Callback();
+
 /**
   * @brief  Data received over USB OUT endpoint are sent over CDC interface
   *         through this function.

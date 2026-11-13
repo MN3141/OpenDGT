@@ -36,7 +36,7 @@ extern "C" {
 
 /* Exported types ------------------------------------------------------------*/
 /* USER CODE BEGIN ET */
-
+extern char usb_buffer[12];
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/

@@ -5,6 +5,7 @@
 
 #define DGT_CLOCK_ADDR7 0x08
 #define DGT_WAKE_ADDR7 0x28
+#define DGT_MAX_SYMBOLS 11
 
 /* The CRC covers the 8-bit address byte that goes on the wire */
 #define DGT_ADDR8(addr7) ((uint8_t)((addr7) << 1))
@@ -21,8 +22,7 @@
 #define DGT_ACK_TIMEOUT_MS 50
 #define DGT_CONFIGURE_ATTEMPTS 6
 #define DGT_DISPLAY_ATTEMPTS 3
-/* As DGT3000-BLE-Gateway: the clock sends its queued messages right after the
-   previous one, so give it time before sending, and more after a failure. */
+
 #define DGT_COMMAND_DELAY_MS 25
 #define DGT_RETRY_DELAY_MS 100
 
@@ -258,9 +258,4 @@ int DGT3000_Configure(void)
   }
 
   return e;
-}
-
-void USB_RX_Callback(void)
-{
-  /* TODO: handle received USB data */
 }
